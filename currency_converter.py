@@ -3,7 +3,7 @@ import requests
 
 def currency_converter():
     # Fetch real-time exchange rates
-    url = "https://v6.exchangerate-api.com/v6/2e87eb2a9b8e12af6226f03a/latest/USD"  # Replace with your API key
+    url = "https://v6.exchangerate-api.com/v6/your_api_key_here/latest/USD"  # Replace with your API key
     response = requests.get(url)
 
     # Check if the response was successful
